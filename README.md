@@ -1,3 +1,8 @@
+#### NOT READY FOR USE YET, THIS PROJECT IS STILL IN THE WOMB
+
+
+
+
 # MagicGrid
 
 MagicGrid is an angular module with diferent directives that allows you to work easy with high amounts of data.
