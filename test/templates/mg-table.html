@@ -1,0 +1,20 @@
+<!-- <pre>{{datos | json}}</pre> -->
+
+
+<table class="mg-tbl">
+  <thead>
+    <tr >
+      <td ng-repeat="(_k,_v) in datos[0]">{{_k}}</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="(k,v) in datos">
+      <td ng-repeat="(_k,_v) in v">
+        <span class="magic-cell" style="width: {{_v.length * 10}}px">
+          {{_v}}
+        </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+Total: <b>{{datos.length}}</b>
