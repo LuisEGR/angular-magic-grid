@@ -6,6 +6,12 @@ myView.controller('test-controller', ['$scope','$http', function($scope,$http){
     $scope.datos = response.data;
   });
   $scope.magicConfig = {
-    show: 10
+    show: 10,
+    columsFormat: [
+      {1: 'text'},
+      {2: 'text'},
+      {3: 'text'},
+      {4: 'number'}      
+    ]
   }
 }]);

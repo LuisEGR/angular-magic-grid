@@ -1,6 +1,5 @@
 <!-- <pre>{{datos | json}}</pre> -->
-
-
+<input type="text" ng-model="search_text">{{search_text}}
 <table class="mg-tbl">
   <thead>
     <tr >
@@ -8,9 +7,10 @@
     </tr>
   </thead>
   <tbody>
-    <tr ng-repeat="(k,v) in datos">
+    <tr ng-repeat="(k,v) in datos | filter: search_text">
       <td ng-repeat="(_k,_v) in v">
-        <span class="magic-cell" style="width: {{_v.length * 10}}px">
+        <!-- <span class="magic-cell" style="width: {{_v.length * 10}}px"> -->
+        <span>
           {{_v}}
         </span>
       </td>
