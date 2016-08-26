@@ -1,0 +1,14 @@
+body{
+  width: 100%;
+  margin: 0;
+}
+.mg-tbl{
+  width: 100%;
+  background: #607d8b;
+  min-height: 50px;
+}
+.mg-row{
+  width: 100%;
+  background: red;
+  min-height: 20px;
+}

@@ -1,0 +1,14 @@
+<!-- <pre>{{datos | json}}</pre> -->
+<table border="1">
+  <thead>
+    <tr >
+      <td ng-repeat="(_k,_v) in datos[0]">{{_k}}</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="(k,v) in datos">
+      <td ng-repeat="(_k,_v) in v">{{_v}}</td>
+    </tr>
+  </tbody>
+</table>
+Total: <b>{{datos.length}}</b>
