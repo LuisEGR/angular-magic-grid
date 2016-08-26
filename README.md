@@ -1,3 +1,8 @@
+#### NOT READY FOR USE YET, THIS PROJECT IS STILL IN THE WOMB
+
+
+
+
 # MagicGrid
 
 MagicGrid is an angular module with diferent directives that allows you to work easy with high amounts of data.
@@ -40,11 +45,9 @@ MagicGrid is an angular module with diferent directives that allows you to work 
 
 ### Required
 
-For Ripple effects:   
-
-* [JQuery] [jQuery]
+* [JQuery.js] [jQuery]
 * [legitRipple.js] [ripl]
-
+* [jQuery.pep.js] [pep]
 
 
 ### TO-DO
@@ -85,4 +88,4 @@ MIT
    [ripl]: <https://github.com/matthias-vogt/legitRipple.js>
    [jQuery]: <http://jquery.com>
    [AngularJS]: <http://angularjs.org>
-
+   [pep]: <https://github.com/briangonzalez/jquery.pep.js>

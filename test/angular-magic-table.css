@@ -4,6 +4,7 @@ body{
 }
 .mg-tbl{
   width: 100%;
+<<<<<<< HEAD
   background: #607d8b;
   min-height: 50px;
 }
@@ -11,4 +12,27 @@ body{
   width: 100%;
   background: red;
   min-height: 20px;
+=======
+  background: #4b4;
+  border: 0;
+  min-height: 50px;
+}
+.magic-cell{
+  display: inline-block;
+  /*width: 250px;*/
+  height: 20px;
+  overflow: hidden;
+  padding: 10px 5px;
+  border:0;
+  /*height: 100%;*/
+  background: #4b4;
+  transition: width 1s;
+}
+
+.magic-cell:hover{
+  position: relative;
+  overflow: visible;
+  /*width: 300px;*/
+  z-index: 2;
+>>>>>>> fdb519573dd1ecb24760420aa26541e2eb4a50e8
 }
